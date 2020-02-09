@@ -51,6 +51,10 @@ body {
     background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.lead p {
+  border: solid 2px black;
+}
+
 #FAQ {
     display: block;
     text-align: center;
