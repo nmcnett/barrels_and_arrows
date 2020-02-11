@@ -9,7 +9,7 @@ body {
 }
 
 .jumbotron {
-  height: 100%;
+  height: 50vw;
   background-image: url(assets/images/rifle.webp);
   background-size: 100%;
   background-position: center;
