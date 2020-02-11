@@ -183,7 +183,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   .jumbotron {
     background-image: url(assets/images/rifle2.webp) !important;
   }
