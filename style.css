@@ -11,12 +11,11 @@ body {
 .jumbotron {
   height: 100%;
   background-image: url(assets/images/rifle.webp);
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
   align-items: center;
   justify-content: center;
 }
