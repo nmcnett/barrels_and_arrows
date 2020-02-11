@@ -9,7 +9,7 @@ body {
 }
 
 .jumbotron {
-  height: 30em;
+  height: 100%;
   background-image: url(assets/images/rifle.webp);
   background-size: cover;
   background-position: center;
@@ -17,6 +17,9 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .jumbotron h1, h3 {
@@ -25,23 +28,22 @@ body {
 }
 
 .jumbotron h1 {
-  font-size: 7rem;
+  font-size: 7vw;
   text-shadow: 4px 4px 9px rgba(184, 65, 61, 0.596);
 }
 
 .jumbotron h3 {
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   text-shadow: 4px 4px 9px rgba(184, 65, 61, 0.596);
 }
 
 #welcome {
-  height: 500px;
+  height: 100%;
   background: rgba(66, 63, 63, 0.3);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border-radius: 30px;
+  margin: auto;
 }
 
 #AboutUsIntro {
@@ -176,22 +178,6 @@ body {
   }
 }
 
-@media (min-width: 736px){
-  .jumbotron {
-    height: 40em;
-  }
-}
-
-@media (max-width: 736px) {
-  .jumbotron h1 {
-    font-size: 3rem;
-  }
-
-  .jumbotron h3 {
-    font-size: 1.5rem;
-  }
-}
-
 @media (max-width: 500px) {
   #events {
     text-align: center;
@@ -226,6 +212,10 @@ body {
   .row {
     margin-left: auto;
   }
+
+ /*  #welcome {
+  height: 22.5rem;
+  } */
 }
 
 #events ul {
