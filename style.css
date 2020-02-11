@@ -185,7 +185,7 @@ body {
 
 @media (max-width: 500px) {
   .jumbotron {
-    background-image: url(assets/images/rifle2.webp);
+    background-image: url(assets/images/rifle2.webp) !important;
   }
   #events {
     text-align: center;
